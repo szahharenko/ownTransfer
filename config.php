@@ -1,7 +1,7 @@
 <?php
 	define('APP_URL','https://agly.eu/');
 
-	define('APP_TITLE','Transfer');
+	define('APP_TITLE','Own Transfer');
 	define('APP_DESCRIPTION','Send your own transfers with love');
 
 	define('APP_VIDEO', false); //APP_URL.'img/appbg.mp4'
