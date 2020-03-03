@@ -148,7 +148,7 @@
 						<div class="input-group"><input type="text" class="form-control" value="<?= $pack_url ?>" readonly id="url<?= $pack_url ?>"/></div>
 					</div>
 					<div class="col-2 pr-0">
-						<button onclick="UPLOADER.copyURL('<?= $pack_url ?>')" class="btn btn-primary btn-block"><?= $APP_TXT['COPY_LINK'] ?></button>
+						<button onclick="UPLOADER.copyUrl('<?= $pack_url ?>')" class="btn btn-primary btn-block"><?= $APP_TXT['COPY_LINK'] ?></button>
 					</div>
 					<div class="col-4">
 						<div id="copy<?= $pack_url ?>" class="alert alert-success" role="alert" style="display:none;"><?= $APP_TXT['COPY_OK'] ?></div>
