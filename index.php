@@ -83,7 +83,7 @@
 					  </td>
 					  <td style="text-align:right;">
 						  {% if (!i) { %}
-							  <button class="btn btn-sm btn-warning cancel"><i class="glyphicon glyphicon-ban-circle"></i></button>
+							  <button class="btn btn-sm btn-warning cancel"><i class="fa fa-ban"></i></button>
 						  {% } %}
 					  </td>
 				  </tr>

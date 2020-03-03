@@ -22,8 +22,9 @@ body {font-family:'Roboto',Arial;font-size:18px;line-height:22px;}
 	.fileinput-button input {filter: alpha(opacity=0);font-size: 100%;height: 100%;}
 }
 
-.progress-animated .progress-bar,
-.progress-animated .bar {background: url('../img/progressbar.gif') !important;filter: none;}
+.progress {min-width:50px;margin-top:5px;}
+.progress-bar {background: url('../img/progressbar.gif') !important;filter: none;}
+
 .fileupload-process {float: right;display: none;}
 .fileupload-processing .fileupload-process,
 .files .processing .preview {display: block;width: 32px;height: 32px;background: url('../img/loading.gif') center no-repeat;background-size: contain;}
